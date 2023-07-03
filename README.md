@@ -44,7 +44,17 @@ A detailed root cause of the vulnerability is available in the [original securit
 
 ## Exploit
 
-TBD
+(This is *only one possible* exploit)
+
+1. Go to "*Console*" > "*Create*" > "*New Device*".
+2. Create a Device that supports SNMP version 1 or 2.
+3. Ensure that the Device has Graphs with one or more templates of:
+    * "*Net-SNMP - Combined SCSI Disk Bytes*"
+    * "*Net-SNMP - Combined SCSI Disk I/O*"
+    * (Creating the Device from the template "*Net-SNMP Device*" will satisfy the Graphs prerequisite)
+4. In the "*SNMP Options*", for the "*SNMP Community String*" field, use a value like this: `public\' ; touch /tmp/m3ssap0 ; \'`.
+5. Click the "*Create*" button.
+6. Check under `/tmp` the presence of the created file.
 
 ## Authors
 
