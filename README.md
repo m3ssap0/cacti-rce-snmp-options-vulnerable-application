@@ -21,7 +21,15 @@ Here the steps to **setup** the environment:
 2. You can finalize the steps by browsing to [http://127.0.0.1/cacti](http://127.0.0.1/cacti) to start the Cacti initialization wizard. If you get an error referring to the database, just wait a little bit and refresh the page.
 3. Default credentials are `admin`/`admin`.
 4. Press "*Next*" to all the buttons during the wizard, choosing options accordingly. All the defaults should be fine and all the mandatory prerequisites should be satisfied.
-5. After the installation, TBD
+5. After the installation, login as the `admin`.
+6. Go to "*Console*" > "*Configuration*" > "*User*".
+7. Click on the `guest` user.
+8. "*Enable*" it, set a password, disable the "*Must Change Password at Next Login*" if you want.
+9. Click on the "*Save*" button.
+10. Go to the "*Permissions*" section.
+11. Under "*General Administration*", enable "*Console Access*" and "*Sites/Devices/Data*".
+12. Click on the "*Save*" button.
+13. Logout and re-login as `guest` to try the exploit.
 
 The container will be called `vuln-cacti`.
 The hostname for a test SNMP device is `monitored_snmp_device`.
