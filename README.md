@@ -23,7 +23,8 @@ Here the steps to **setup** the environment:
 4. Press "*Next*" to all the buttons during the wizard, choosing options accordingly. All the defaults should be fine and all the mandatory prerequisites should be satisfied.
 5. After the installation, TBD
 
-The container will be called `TBD`.
+The container will be called `vuln-cacti`.
+The hostname for a test SNMP device is `monitored_snmp_device`.
 
 To **teardown** the environment use `docker compose down` command.
 
@@ -39,7 +40,7 @@ TBD
 
 ## Authors
 
-* **Antonio Francesco Sardella** - *reporter* - [m3ssap0](https://github.com/m3ssap0)
+* **Antonio Francesco Sardella** - *vulnerability reporter* - [m3ssap0](https://github.com/m3ssap0)
 
 ## License
 
