@@ -32,6 +32,7 @@ Here the steps to **setup** the environment:
 13. Logout and re-login as `guest` to try the exploit.
 
 The container will be called `vuln-cacti`.
+
 The hostname for a test SNMP device is `monitored_snmp_device`.
 
 To **teardown** the environment use `docker compose down` command.
@@ -40,7 +41,7 @@ The official installation guide of Cacti can be found [here](https://docs.cacti.
 
 ## Root cause
 
-A detailed root cause of the vulnerability is available in the [original security advisory]() or in [my blog post]().
+A detailed root cause of the vulnerability is available in the [original security advisory](https://github.com/Cacti/cacti/security/advisories/GHSA-g6ff-58cj-x3cp) or in [my blog post]().
 
 ## Exploit
 
