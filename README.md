@@ -1,17 +1,17 @@
-# Cacti v1.2.24 authenticated command injection (CVE-TBD) vulnerable application
+# Cacti v1.2.24 authenticated command injection (CVE-2023-39362) vulnerable application
 
-This is a vulnerable application to test the exploit for the **Cacti** vulnerability (**CVE-TBD**).
+This is a vulnerable application to test the exploit for the **Cacti** vulnerability (**CVE-2023-39362**).
 
 ## WARNING!
 
 **This application contains serious security vulnerabilities. Run it at your own risk! It is recommended using a backed-up and sheltered environment (such as a VM with a recent snapshot and host-only networking). Do not upload this application to any Internet facing servers, as they will be compromised.**
 
-***DISCLAIMER*: I do not take responsibility for the way in which any one uses this application. The only purpose of this application is to be a test scenario for the CVE-TBD exploit and it should not be used maliciously. If your server is compromised via an installation of this application it is not my responsibility, it is the responsibility of the person(s) who uploaded and installed it.**
+***DISCLAIMER*: I do not take responsibility for the way in which any one uses this application. The only purpose of this application is to be a test scenario for the CVE-2023-39362 exploit and it should not be used maliciously. If your server is compromised via an installation of this application it is not my responsibility, it is the responsibility of the person(s) who uploaded and installed it.**
 
 ## Vulnerability info
 
-* **CVE-ID**: CVE-TBD
-* **Link**: [https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-TBD](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-TBD)
+* **CVE-ID**: CVE-2023-39362
+* **Link**: [https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39362](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39362)
 * **Description**: TBD
 
 ## Usage
