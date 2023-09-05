@@ -12,7 +12,7 @@ This is a vulnerable application to test the exploit for the **Cacti** vulnerabi
 
 * **CVE-ID**: CVE-2023-39362
 * **Link**: [https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39362](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39362)
-* **Description**: TBD
+* **Description**: In Cacti 1.2.24, under certain conditions, an authenticated privileged user, can use a malicious string in the SNMP options of a Device, performing command injection and obtaining remote code execution on the underlying server.
 
 ## Usage
 
