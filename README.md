@@ -41,7 +41,7 @@ The official installation guide of Cacti can be found [here](https://docs.cacti.
 
 ## Root cause
 
-A detailed root cause of the vulnerability is available in the [original security advisory](https://github.com/Cacti/cacti/security/advisories/GHSA-g6ff-58cj-x3cp) or in [my blog post](https://m3ssap0.github.io/articles/cacti_authenticated_command_injection_snmp.html).
+A detailed root cause of the vulnerability is available in the [original security advisory](https://github.com/Cacti/cacti/security/advisories/GHSA-g6ff-58cj-x3cp) or in [my blog post](https://m3ssap0.github.io/2023/07/04/cacti-authenticated-command-injection-snmp.html).
 
 ## Exploit
 
